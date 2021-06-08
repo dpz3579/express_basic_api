@@ -23,7 +23,7 @@
   ` alias mongo_admin='mongo --port 27017 -u "admin" -p "superadmin" --authenticationDatabase "admin"' `
 * Create an user for Heartpool Database (One time setup)
   ```
-  use heartpool
+  use myDb
   db.createUser(
     {
       user: "user",
@@ -32,7 +32,7 @@
     }
   )
   ```
-  ` alias mongo_heartpool='mongo --port 27017 -u "user" -p "user123" --authenticationDatabase "heartpool"' `
+  ` alias mongo_myDb='mongo --port 27017 -u "user" -p "user123" --authenticationDatabase "myDb"' `
 
   ```
   use sessions
