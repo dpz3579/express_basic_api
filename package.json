@@ -1,0 +1,32 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "description": "API Server for HeartPool App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpz3579/express_basic_api"
+  },
+  "author": "Dipesh",
+  "license": "ISC",
+  "homepage": "https://github.com/dpz3579/express_basic_api#readme",
+  "dependencies": {
+    "apn": "git+https://github.com/dpz3579/node-apn.git",
+    "connect-mongodb-session": "^2.4.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "ipreverselookup": "git+https://github.com/dpz3579/ipReverseLookup.git",
+    "libphonenumber-js": "^1.9.19",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.9",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0"
+  }
+}
