@@ -2,7 +2,7 @@
 
 ### What is this repository for? ###
 
-* API for Heartpool app a bridge between database & the APp
+* Express API for app a bridge between database & the Mobile App
 
 ### How do I get set up? ###
 
@@ -28,7 +28,7 @@
     {
       user: "user",
       pwd:  "user123",
-      roles: [ { role: "readWrite", db: "heartpool" }, { role: "read", db: "heartpoolbckp" } ]
+      roles: [ { role: "readWrite", db: "myDb" }, { role: "read", db: "myDbbckp" } ]
     }
   )
   ```
@@ -53,7 +53,7 @@
   ```
 
 * connect to mongodb by shell
-  * `mongo --port 27017 -u "user" -p "user123" --authenticationDatabase "heartpool"`
+  * `mongo --port 27017 -u "user" -p "user123" --authenticationDatabase "myDb"`
 
 
 ### Contribution guidelines ###
